@@ -13,8 +13,11 @@ describe('Entrega Tarea 19-11-2024', {testIsolation:false}, ()=>{
     })
 
     it('Verificar imágenes visibles', ()=>{
-        cy.get('img[src="/images/rbp-logo.jpg"]').should('be.visible')
-        cy.get('img[src="/images/room2.jpg"]').should('be.visible')
+        //cy.get('img[src="/images/rbp-logo.jpg"]').should('be.visible')
+        //cy.get('img[src="/images/room2.jpg"]').should('be.visible')
+
+        cy.get('img[src="https://loremflickr.com/500/500/cat?lock=7698"]').should('be.visible')
+        cy.get('img[src="https://loremflickr.com/500/500/cat?lock=90097"]').should('be.visible')
     })
 
     it('Verificar info de bienvenida del hotel', ()=>{
