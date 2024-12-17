@@ -1,5 +1,6 @@
 # XacademyQACypress
 QA Automarion Course with Cypress
+
 Los casos de prueba se deben correr con el navegador, dentro de Cypress Electron, ya que con Chrome me arrojaba error 401.
 
 [Plan de pruebas.pdf](https://github.com/user-attachments/files/18151908/Plan.de.pruebas.pdf)
